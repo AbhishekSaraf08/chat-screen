@@ -5,9 +5,10 @@ This project is a chat screen interface built using Next.js, Tailwind CSS, and v
 
  Live project Link - https://chat-screen-iota.vercel.app/ 
 
-Code/Component Locations : - 
+Files / Code/Component Locations : - 
 1. main page is 'src/app/ page.tsx' 
 2. Sidebar , chat , PdfList , PdfViewer  in 'src/components'
+3. Sample pdf files are in 'public/pdfs'
 
 Technologies Used - 
 Next.js: A React framework for building server-rendered React applications with ease.
@@ -27,7 +28,7 @@ Next.js Performance: Built using Next.js for fast performance and optimized serv
 Components - 
 1. Sidebar - sidebar with functionality of opening and closing of more list of sidebar (responsive)
 2. Chat - main section where listed static chat ui   and  pdflist (responsive)
-3.pdflist - list the pdfs in chat sections (responsive)
+3.pdflist - array of objects for pdf which list the pdfs in chat sections (responsive)
 4. PDF viewer - Ui and functionality to show pdf (responsive)
 
 
