@@ -13,9 +13,9 @@
     const Chat = ({selectedPdf,setSelectedPdf}:IChat) => {
 
       return (
-        <div className=' w-full bg-gradient-to-r from-blue-100 via-yellow-100 to-blue-200
+        <div className='  w-full bg-gradient-to-r from-blue-100 via-yellow-100 to-blue-200
            p-2 flex justify-center h-screen'>
-        <div className={`   w-full  h-full ${selectedPdf?'':'md:w-[85%] lg:w-[70%]'}  flex flex-col justify-between`}>
+        <div className={`   w-full  h-full ${selectedPdf?'':'md:w-[85%] lg:w-[70%] ml-4'}  flex flex-col justify-between`}>
           <div className=' mt-10 flex   justify-end'>
           <p className='bg-slate-300  shadow-lg font-sans text-sm rounded-md p-2'>What must be included in a legal document notice under Section 138?
           </p>
