@@ -17,7 +17,7 @@
   p-2 flex justify-center h-screen`}>
       <div className={`   w-full  h-full ${selectedPdf?'':'md:w-[85%] lg:w-[70%]'}  flex flex-col justify-between`}>
         <div className=' mt-10 flex   justify-end'>
-        <p className='bg-slate-200 opacity-60 font-sans text-sm rounded-md p-2'>What must be included in a legal document notice under Section 138?
+        <p className='bg-slate-300  shadow-lg font-sans text-sm rounded-md p-2'>What must be included in a legal document notice under Section 138?
         </p>
         </div>
     
