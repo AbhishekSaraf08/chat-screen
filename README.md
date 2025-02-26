@@ -1,4 +1,5 @@
 Chat Screen Project
+
 This project is a chat screen interface built using Next.js, Tailwind CSS, and various React libraries. It provides a smooth and customizable chat UI that integrates seamlessly with PDF viewer features and custom icons.
 
 
