@@ -1,41 +1,39 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Chat Screen Project
+This project is a chat screen interface built using Next.js, Tailwind CSS, and various React libraries. It provides a smooth and customizable chat UI that integrates seamlessly with PDF viewer features and custom icons.
 
-## Getting Started
 
-First, run the development server:
+ Live project Link - https://chat-screen-iota.vercel.app/ 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Technologies Used - 
+Next.js: A React framework for building server-rendered React applications with ease.
+Tailwind CSS: A utility-first CSS framework for creating custom designs without writing custom CSS.
+React PDF: A library for displaying PDF files in React applications.
+React Icons: A library providing customizable icons for React applications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features
+Responsive Layout: The chat screen is designed to be fully responsive, thanks to Tailwind CSS. It looks great on both desktop and mobile devices.
+PDF Viewer: Allows users to view PDF files directly within the chat interface using the react-pdf library.
+Customizable Icons: The UI includes customizable icons, thanks to the react-icons library, allowing you to choose from a wide range of icons.
+Next.js Performance: Built using Next.js for fast performance and optimized server-side rendering.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Components : - 
+1. Sidebar - sidebar with functionality op opening and closing further more list of sidebar
+2. Chat - main section where listed static chat ui   and  pdflist
+3.pdflist - list the pdfs in chat sections 
+4. PDF viewer - Ui and functionality to show pdf
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Functionalities - 
+1. Sidebar opening and closing on click on list icon 
+2. Listing pdfs in chat and its click functionality to show pdfViewer accordingly (using satatic pdfs)
+3. addded page change  , download , close functionality to pdf viewer
 
-To learn more about Next.js, take a look at the following resources:
+UI - 
+1. designed sidebar , chat , pdfviewer 
+2. layout change as per pdfviewer is opened or not 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# chat-screen
-A chatgpt page with pdf opener using tailwind and next js
->>>>>>> d379489cf1dd5295fd1f6dd91cce8f3c07a61021
+Changes (ui and functionalities )- 
+1. Changed the Colour theme of  page 
+2. Implemented some animations on sidebar opening (which opens when  we click on list icon on sidebar) and pdf lists
+3.  Added page change feature to the Pdf Viewer with full functionality 
+4. changed the layout of page as per different screen sizes
