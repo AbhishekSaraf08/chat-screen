@@ -33,7 +33,7 @@
     return (
       
         // Mapping static pdf details object(imported in Chat component)
-        <div className='  p-2 flex flex-wrap justify-start gap-2'>
+        <div className='  p-2 flex w-full flex-wrap justify-start gap-2'>
           {pdfFiles.map(pdf => (
             <div key={pdf.id} className='text-sm  flex  items-center gap-2 md:flex-col cursor-pointer hover:scale-95    md:max-w-32 hover:bg-slate-200 duration-500 bg-slate-100   border  shadow-lg p-1 md:p-2 rounded-md ' onClick={() => handleClick(pdf)}>
               <Image  src={logo} alt="logo" width={40}  className='   w-10 md:w-full  rounded-sm h-10 md:h-20'/>

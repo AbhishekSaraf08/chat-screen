@@ -27,7 +27,7 @@
   }
     return (
       <div className={`   ${selectedPdf?" md:left-[70px]  lg:left-0 absolute lg:relative":''} bg-gradient-to-r from-blue-100 via-yellow-100 to-blue-200
-  overflow-hidden    w-full md:w-[90%] lg:w-full h-screen p-2 ` }>
+         overflow-hidden    w-full md:w-[90%] lg:w-full h-screen p-2 ` }>
       {/* Pdf viewer layout - pagenumber , download , close */}
         <div className=' p-1   flex justify-between  bg-gradient-to-r  from-yellow-200 to-blue-300
   rounded-t-md'>
