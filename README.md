@@ -18,10 +18,10 @@ Customizable Icons: The UI includes customizable icons, thanks to the react-icon
 Next.js Performance: Built using Next.js for fast performance and optimized server-side rendering.
 
 Components : - 
-1. Sidebar - sidebar with functionality op opening and closing further more list of sidebar
-2. Chat - main section where listed static chat ui   and  pdflist
-3.pdflist - list the pdfs in chat sections 
-4. PDF viewer - Ui and functionality to show pdf
+1. Sidebar - sidebar with functionality op opening and closing further more list of sidebar (responsive)
+2. Chat - main section where listed static chat ui   and  pdflist (responsive)
+3.pdflist - list the pdfs in chat sections (responsive)
+4. PDF viewer - Ui and functionality to show pdf (responsive)
 
 
 Functionalities - 
@@ -30,8 +30,9 @@ Functionalities -
 3. addded page change  , download , close functionality to pdf viewer
 
 UI - 
-1. designed sidebar , chat , pdfviewer 
-2. layout change as per pdfviewer is opened or not 
+1. designed sidebar , chat , pdfviewer  with responsiveness or different layout as per screen size
+2. layout change as per pdfviewer is opened or not
+
 
 Changes (ui and functionalities )- 
 1. Changed the Colour theme of  page 
