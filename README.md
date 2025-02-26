@@ -1,41 +1,50 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<b>Chat Screen Project</b>
 
-## Getting Started
+This project is a chat screen interface built using Next.js, Tailwind CSS, and various React libraries. It provides a smooth and customizable chat UI that integrates seamlessly with PDF viewer features and custom icons.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ Live project Link - https://chat-screen-iota.vercel.app/ 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Files / Code/Component Locations : - 
+1. main page is 'src/app/ page.tsx' 
+2. Sidebar , chat , PdfList , PdfViewer  in 'src/components'
+3. Sample pdf files are in 'public/pdfs'
+4. movemenu  css animation added in tailwind.config.ts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Technologies Used - 
+Next.js: A React framework for building server-rendered React applications with ease.
+Tailwind CSS: A utility-first CSS framework for creating custom designs without writing custom CSS.
+React PDF: A library for displaying PDF files in React applications.
+React Icons: A library providing customizable icons for React applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Features
+Responsive Layout: The chat screen is designed to be fully responsive, thanks to Tailwind CSS. It looks great on both desktop and mobile devices.
+PDF Viewer: Allows users to view PDF files directly within the chat interface using the react-pdf library.
+Customizable Icons: The UI includes customizable icons, thanks to the react-icons library, allowing you to choose from a wide range of icons.
+Next.js Performance: Built using Next.js for fast performance and optimized server-side rendering.
+ 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Components - 
+1. Sidebar - sidebar with functionality of opening and closing of more list of sidebar (responsive)
+2. Chat - main section where listed static chat ui   and  pdflist (responsive)
+3.pdflist - array of objects for pdf which list the pdfs in chat sections (responsive)
+4. PDF viewer - Ui and functionality to show pdf (responsive)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Functionalities - 
+1. Sidebar opening and closing on click on list icon 
+2. Listing pdfs in chat and its click functionality to show pdfViewer accordingly (using satatic pdfs)
+3. addded page change  , download , close functionality to pdf viewer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+UI - 
+1. designed sidebar , chat , pdfviewer  with responsiveness or different layout as per screen size
+2. layout change as per pdfviewer is opened or not
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# chat-screen
-A chatgpt page with pdf opener using tailwind and next js
->>>>>>> d379489cf1dd5295fd1f6dd91cce8f3c07a61021
+
+Changes (ui and functionalities )- 
+1. Changed the Colour theme of  page 
+2. Implemented some custom animation on sidebar opening (which opens when  we click on list icon on sidebar) and pdf lists
+3.  Added page change feature to the Pdf Viewer with full functionality 
+4. changed the layout of page as per different screen sizes
