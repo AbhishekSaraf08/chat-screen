@@ -8,11 +8,24 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes:{
+        movemenu:{
+          '0%': { transform: 'translateX(-100px)' },  
+            '100%': { transform: 'translateX(130px)' },  
+      }
+    },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation:{
+        movemenu: 'movemenu 0.6s ease-in-out forwards',
+      }
     },
   },
-  plugins: [],
+  plugins: [
+  
+      require('tailwind-scrollbar-hide')
+  
+  ],
 } satisfies Config;
