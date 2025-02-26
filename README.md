@@ -9,6 +9,7 @@ Files / Code/Component Locations : -
 1. main page is 'src/app/ page.tsx' 
 2. Sidebar , chat , PdfList , PdfViewer  in 'src/components'
 3. Sample pdf files are in 'public/pdfs'
+4. movemenu  css animation added in tailwind.config.ts
 
 Technologies Used - 
 Next.js: A React framework for building server-rendered React applications with ease.
