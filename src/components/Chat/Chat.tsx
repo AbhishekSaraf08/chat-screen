@@ -1,7 +1,7 @@
     import React from 'react'
     import { CgAddR } from "react-icons/cg";
     import { CiLocationArrow1 } from "react-icons/ci";
-    import logo from '../../public/logo.png'
+    import logo from '../../../public/logo.png'
     import { FaBook } from "react-icons/fa";
     import { FaArrowRight } from "react-icons/fa";
     import Image from 'next/image';

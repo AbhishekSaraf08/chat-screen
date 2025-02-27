@@ -1,6 +1,6 @@
         "use client"
         import React, { useState } from 'react'
-        import logo from '../../public/logo.png'
+        import logo from '../../../public/logo.png'
         import Image from 'next/image';
         import { CiViewList } from "react-icons/ci";
         import { CgAddR } from "react-icons/cg";

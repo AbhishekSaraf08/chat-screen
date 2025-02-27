@@ -3,7 +3,7 @@
   import { pdfjs } from 'react-pdf';
   import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
   import 'react-pdf/dist/esm/Page/TextLayer.css';
-  import logo from '../../public/logo.png'
+  import logo from '../../../public/logo.png'
   import Image from 'next/image';
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
 
