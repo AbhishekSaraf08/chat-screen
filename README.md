@@ -1,4 +1,4 @@
-<b>Chat Screen Project</b>
+<h1>Chat Screen Project</h1>
 
 This project is a chat screen interface built using Next.js, Tailwind CSS, and various React libraries. It provides a smooth and customizable chat UI that integrates seamlessly with PDF viewer features and custom icons.
 
@@ -48,3 +48,6 @@ Changes (ui and functionalities )-
 2. Implemented some custom animation on sidebar opening (which opens when  we click on list icon on sidebar) and pdf lists
 3.  Added page change feature to the Pdf Viewer with full functionality 
 4. changed the layout of page as per different screen sizes
+
+
+Additional React Libraries used :  react-pdf  & react-icon
