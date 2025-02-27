@@ -12,8 +12,6 @@
       {/* showing PdfViewer when there is any selectedPdf */}
         {selectedPdf && <PdfViewer selectedPdf={selectedPdf} setSelectedPdf={setSelectedPdf}/> }
         
-        
-        
       </div>
     );
   }
