@@ -4,7 +4,6 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { MdAdd } from "react-icons/md";
 import { RiSubtractLine } from "react-icons/ri";
-import { classNames } from "@react-pdf-viewer/core";
 interface IPdfViewer {
   selectedPdf: any;
   setSelectedPdf: any;
